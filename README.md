@@ -38,11 +38,11 @@ $ git clone <https://github.com/alyfer-ambrozini/automacao_login-labs>
 $ cd automacao_login-labs/tests
 
 # Instale as dependências
-$ npm init playwright@latest
+$ npm init playwright@latest <br>
 $ selecione TypeScript
 
 # Execute a aplicação
-$ npx playwright test
+$ npx playwright test <br>
 $ npx playwright test --debug (para visualizar o processo da automação)
 
 ### 🛠 Tecnologias
