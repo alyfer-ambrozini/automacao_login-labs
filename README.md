@@ -1,4 +1,4 @@
-<h1 align="center">Automacao de Login</h1>
+<h1 align="center">Automação de Login</h1>
 
 <p align="center">Projeto para automatizar testes no website Swag Labs</p>
 
@@ -43,6 +43,7 @@ $ selecione TypeScript
 
 # Execute a aplicação
 $ npx playwright test
+$ npx playwright test --debug (para visualizar o processo da automação)
 
 ### 🛠 Tecnologias
 
