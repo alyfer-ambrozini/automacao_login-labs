@@ -55,7 +55,7 @@ $ npm install
 # Execute a aplicação
 $ npx playwright test 
 $ npx playwright test --debug (para visualizar o processo da automação)
-
+```
 
 ### 📝 Licença
 
