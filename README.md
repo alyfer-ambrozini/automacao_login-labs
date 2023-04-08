@@ -3,52 +3,67 @@
 <p align="center">Projeto para automatizar testes no website Swag Labs</p>
 
 <p align="center">
- <a href="#objetivo">Objetivo</a> •
- <a href="#tecnologias">Tecnologias</a> • 
- <a href="#contribuicao">Contribuição</a> • 
- <a href="#licenc-a">Licença</a> • 
- <a href="#autor">Autor</a>
+  <a href="#objetivo">Objetivo</a> •
+  <a href="#tecnologias">Tecnologias</a> • 
+  <a href="#contribuicao">Contribuição</a> • 
+  <a href="#licenc-a">Licença</a> • 
+  <a href="#autor">Autor</a>
 </p>
 
 <h4 align="center"> 
-	🚧  React Select 🚀 Em construção...  🚧
+	🚧  Em construção...  🚧
 </h4>
 
-### Features
+## Objetivo
 
-- [x] Login com usuario e senha corretss
-- [x] Falha no login com usuario e senha incorretos
-- [x] Acesso negado para usuario bloqueado
-- [x] Adicionar um produto ao carrinho
-- [x] Preencher formulario para finalizar compra
-- [x] Finalizar compra com sucesso
+O objetivo deste projeto é criar uma automação de testes para a página de login do site Swag Labs, com o intuito de verificar o funcionamento das funcionalidades de login, adição de produtos ao carrinho e finalização de compra.
 
-### Pré-requisitos
-
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
-
-### 🎲 Rodando a automação
-
-# Clone este repositório
-$ git clone <https://github.com/alyfer-ambrozini/automacao_login-labs>
-
-# Acesse a pasta do projeto no terminal/cmd
-$ cd automacao_login-labs/tests
-
-# Instale as dependências
-$ npm init playwright@latest <br>
-$ selecione TypeScript
-
-# Execute a aplicação
-$ npx playwright test <br>
-$ npx playwright test --debug (para visualizar o processo da automação)
-
-### 🛠 Tecnologias
+## Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Node.js](https://nodejs.org/en/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Playwright](https://playwright.dev/docs/intro)
+
+## Funcionalidades
+
+- [x] Login com usuário e senha corretos
+- [x] Falha no login com usuário e senha incorretos
+- [x] Acesso negado para usuário bloqueado
+- [x] Adicionar um produto ao carrinho
+- [x] Preencher formulário para finalizar compra
+- [x] Finalizar compra com sucesso
+
+## Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e um editor de texto de sua preferência.
+
+### 🎲 Rodando a automação
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/alyfer-ambrozini/automacao_login-labs.git
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd automacao_login-labs
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação
+$ npx playwright test 
+$ npx playwright test --debug (para visualizar o processo da automação)
+
+
+### 📝 Licença
+
+Este projeto está sob a licença MIT.
+
+### 🦸 Autor
+
+Desenvolvido por Alyfer Ambrozini 👋 Entre em contato!
+
+ [![Linkedin Badge](https://img.shields.io/badge/-Alyfer-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/alyfer-ambrozini-1526a3159/)](https://www.linkedin.com/in/alyfer-ambrozini/) 
+
